@@ -1,0 +1,28 @@
+name: taeo
+favicon: null
+layout_spectrum: 0.6670491299591959
+typography_spectrum: 0.7944288779981434
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#B8B42D'
+    - '#697A21'
+    - '#FFFCE8'
+    - '#3E363F'
+    - '#DD403A'
+  brandStrength: 0.5922101957257837
+  lightness: 0.6540375200565904
+  saturation: 0.39191883569583297
+  rhythmicContrast: 0.4941958973649889
+purpose: []
