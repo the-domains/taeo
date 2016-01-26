@@ -1,28 +1,40 @@
-name: taeo
 favicon: null
-layout_spectrum: 0.6670491299591959
-typography_spectrum: 0.7944288779981434
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: taeo
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  brandStrength: 0.5922101957257837
-  lightness: 0.6540375200565904
-  saturation: 0.39191883569583297
-  rhythmicContrast: 0.4941958973649889
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.6288937
+  brandStrength: 0.5719656
+  lightness: 0.8877551
+  brandColors:
+    - '#191818'
+    - '#5C4130'
+    - '#FEFEFD'
+    - '#BC895C'
+    - '#E9BE88'
+  rhythmicContrast: 0.4941959
+typography_spectrum: 0.3764769
+layout_spectrum: 0.4291085
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
